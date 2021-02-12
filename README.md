@@ -1,4 +1,4 @@
-# Calori Couner Client
+# Calorie Couner Client
 
 View the live application at: 
 
