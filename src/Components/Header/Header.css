@@ -1,0 +1,55 @@
+  
+.nav-bar-public {
+	background-color: burlywood;
+	color: white;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	
+}
+
+.nav-public {
+	margin-top: 1rem;
+	text-align: right;
+	font-size: 17px;
+	
+
+}
+
+h1 {
+	text-decoration: wavy;
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	
+}
+
+
+.nav-public button {
+	margin-right: 1rem;
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+	background-color: #21343B;
+	color: #F6F6FA;
+	border: 1px solid #21343B;
+	border-radius: 5px;
+	height: 1.4rem;
+	width: 6rem;
+	cursor: pointer;
+
+}
+
+@media only screen and (max-width: 843px) {
+	.nav-bar-public {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		
+	}
+
+	.nav-public {
+		text-align: center;
+		margin-right: 3rem;
+		border-top: 1px solid #21434B;
+		
+	}
+}

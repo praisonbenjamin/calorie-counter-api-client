@@ -1,0 +1,25 @@
+.add {
+    border: 2px solid brown;
+    margin-top: 3rem;
+    background-color: beige;
+    padding-left: 2px;
+    padding-right: 2px;
+    
+    
+}
+
+.SideBar{
+    border: 2px solid brown;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
+}
+
+@media only screen and (min-width: 843px) {
+    .add {
+        padding-left: 20px ;
+       
+    }
+}

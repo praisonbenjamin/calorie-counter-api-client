@@ -1,0 +1,20 @@
+.Dashboard{
+    display: flex;
+}
+
+.flex-one{
+    flex: 1;
+    background-color: lightgrey;
+    padding-top: 10rem;
+    padding-left: 4rem;
+    padding-bottom: 4rem;
+}
+
+.flex-three{
+    flex: 2;
+    background-color: yellowgreen;
+    padding-top: 10rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+}
