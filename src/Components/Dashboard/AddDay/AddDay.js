@@ -2,6 +2,9 @@ import React from 'react'
 import dashboardContext from '../dashboardContext';
 import PropTypes from 'prop-types'
 
+
+
+//creates a post request for day
 class AddDay extends React.Component {
     constructor(props) {
         super(props);

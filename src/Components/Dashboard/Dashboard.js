@@ -16,6 +16,8 @@ import Header from '../Header/Header'
 import './Dashboard.css'
 
 class Dashboard extends React.Component {
+
+    // set states
     state = {
         meals: [],
         days: []
@@ -82,6 +84,8 @@ class Dashboard extends React.Component {
         this.getMealData();
     }
 
+
+    // declare all the routes
     render() {
         const contextValue = {
             meals: this.state.meals,
