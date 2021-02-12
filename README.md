@@ -1,6 +1,6 @@
 # Calorie Couner Client
 
-View the live application at: 
+View the live application at: https://calorie-counter-client-prod.vercel.app/
 
 ## Application summary
 
