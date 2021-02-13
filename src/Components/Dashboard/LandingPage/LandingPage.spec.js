@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import StoreMeal from './StoreMeal';
+import LandingPage from './LandingPage';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-describe('StoreMeal component', () => {
+describe('LandingPage component', () => {
   it('renders without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(
       <BrowserRouter>
-        <Route path={'/meal/:mealId'} component={StoreMeal} />
+        <Route path={'/'} component={LandingPage} />
       </BrowserRouter>,
       div
     );

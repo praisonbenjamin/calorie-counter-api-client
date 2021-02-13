@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom';
 import SideBar from './SideBar/SideBar';
 import SideBarDay from './SideBarDay/SideBarDay';
 import SideBarMeal from './SideBarMeal/SideBarMeal';
@@ -10,14 +10,14 @@ import dashboardContext from './dashboardContext';
 import AddDay from './AddDay/AddDay';
 import AddMeal from './AddMeal/AddMeal';
 import PickADay from './PickADay/PickADay';
-import landingPage from'./LandingPage/LandingPage'
-import Header from '../Header/Header'
+import landingPage from'./LandingPage/LandingPage';
+import Header from '../Header/Header';
 
 import './Dashboard.css'
 
 class Dashboard extends React.Component {
 
-    // set states
+   
     state = {
         meals: [],
         days: []
@@ -85,7 +85,7 @@ class Dashboard extends React.Component {
     }
 
 
-    // declare all the routes
+    
     render() {
         const contextValue = {
             meals: this.state.meals,

@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import './LandingPage'
+import './LandingPage';
 
 
-// the page that the app loads in
+
 export default function landingPage() {
 	return(
 		<div id="about">

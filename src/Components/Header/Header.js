@@ -8,11 +8,10 @@ export class Header extends React.Component {
 
 		return (
 			<div className="row nav-bar-public row">
-				<h1 className="col-6"><Link to="/">Calorie Counter</Link></h1>
-				<nav className="col-6 nav-public">
-					<ul id="menu">
-						<Link to="/dashboard">Track!</Link>
-					</ul>
+				<h1 className="col-6"><Link to="/dashboard">Calorie Guide</Link></h1>
+				<nav className='nav' role='navigation'>
+						<Link to="/addDay">Add Day</Link>
+						<Link to="/addMeal">Add Meal</Link>
 				</nav>
 			</div>
 		);

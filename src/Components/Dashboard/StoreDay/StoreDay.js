@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import Meal from '../Meal/Meal'
 import dashboardContext from '../dashboardContext';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 class StoreDays extends React.Component {
     static contextType = dashboardContext;

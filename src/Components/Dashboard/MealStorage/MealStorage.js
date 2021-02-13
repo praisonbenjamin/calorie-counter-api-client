@@ -1,7 +1,7 @@
 import React from 'react';
-import Meal from '../Meal/Meal'
-import dashboardContext from '../dashboardContext'
-import { Link } from 'react-router-dom'
+import Meal from '../Meal/Meal';
+import dashboardContext from '../dashboardContext';
+import { Link } from 'react-router-dom';
 import ErrorBoundary from '../ErrorBoundary/ErrorBoundary';
 
 class MealStorage extends React.Component {

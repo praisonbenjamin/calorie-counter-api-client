@@ -1,6 +1,6 @@
-import React from 'react'
-import dashBoardContext from '../dashboardContext'
-import PropTypes from 'prop-types'
+import React from 'react';
+import dashBoardContext from '../dashboardContext';
+import PropTypes from 'prop-types';
 
 class SideBarMeal extends React.Component {
     static contextType = dashBoardContext;

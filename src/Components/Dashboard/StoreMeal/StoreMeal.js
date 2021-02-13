@@ -1,8 +1,8 @@
 import React from 'react';
-import SingleMeal from '../SingleMeal/SingleMeal'
+import SingleMeal from '../SingleMeal/SingleMeal';
 import dashboardContext from '../dashboardContext';
-import ErrorBoundary from '../ErrorBoundary/ErrorBoundary'
-import PropTypes from 'prop-types'
+import ErrorBoundary from '../ErrorBoundary/ErrorBoundary';
+import PropTypes from 'prop-types';
 
 class StoreMeal extends React.Component {
     static contextType = dashboardContext;

@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import StoreMeal from './StoreMeal';
+import ErrorBoundary from './ErrorBoundary';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-describe('StoreMeal component', () => {
+describe('ErrorBoundary component', () => {
   it('renders without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(
       <BrowserRouter>
-        <Route path={'/meal/:mealId'} component={StoreMeal} />
+        <Route path={'/meal/:mealId'} component={ErrorBoundary} />
       </BrowserRouter>,
       div
     );

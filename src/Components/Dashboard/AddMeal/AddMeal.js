@@ -2,6 +2,9 @@ import React from 'react'
 import dashboardContext from '../dashboardContext';
 import PropTypes from 'prop-types'
 
+
+
+//form for adding meal
 class AddMeal extends React.Component {
     static contextType = dashboardContext;
 
@@ -104,9 +107,9 @@ class AddMeal extends React.Component {
 
                         <br></br>
 
-                        <label htmlFor='calories'>Enter Calories:</label>
+                        <label htmlFor='calories'>Enter calories:</label>
                         <br></br>
-                        <input type='number' id="Calories" name="Calories" rows="4" cols="50"
+                        <input type='number' id="calories" name="calories" rows="4" cols="50"
                             value={this.state.calories}
                             onChange={e => this.updateCalories(e.target.value)} />
 
@@ -114,7 +117,7 @@ class AddMeal extends React.Component {
 
                         <label htmlFor='foodItem'>Enter Food Item:</label>
                         <br></br>
-                        <textarea id="foodItem" name="foodItem" rows="4" cols="50"
+                        <textarea id="foodItem" name="foodItem" rows="4" cols="20"
                             value={this.state.foodItem}
                             onChange={e => this.updateFoodItem(e.target.value)} />
 

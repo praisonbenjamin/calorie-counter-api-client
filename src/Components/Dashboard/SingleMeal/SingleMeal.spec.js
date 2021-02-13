@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import StoreMeal from './StoreMeal';
+import SingleMeal from './SingleMeal';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-describe('StoreMeal component', () => {
+describe('SingleMeal component', () => {
   it('renders without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(
       <BrowserRouter>
-        <Route path={'/meal/:mealId'} component={StoreMeal} />
+        <Route path={'/'} component={SingleMeal} />
       </BrowserRouter>,
       div
     );

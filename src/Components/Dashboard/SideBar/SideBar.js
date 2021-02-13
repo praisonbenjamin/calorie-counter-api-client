@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
-import dashBoardContext from '../dashboardContext'
-import './SideBar.css'
+import { Link } from 'react-router-dom';
+import dashBoardContext from '../dashboardContext';
+import './SideBar.css';
 
 
 class SideBar extends React.Component {
