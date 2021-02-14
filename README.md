@@ -8,7 +8,7 @@ A CURD application that lets you track your daily food intake and calories. They
 
 ## Screenshot
 
-![screenshot of the app] (https://github.com/praisonbenjamin/calorie-counter-api-client/blob/main/images/calorie-guide-screenshot.jpg)
+![screenshot of the app](https://github.com/praisonbenjamin/calorie-counter-api-client/blob/main/images/calorie-guide-screenshot.jpg)
 
 
 
