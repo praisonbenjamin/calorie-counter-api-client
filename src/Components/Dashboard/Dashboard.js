@@ -11,7 +11,7 @@ import AddDay from './AddDay/AddDay';
 import AddMeal from './AddMeal/AddMeal';
 import PickADay from './PickADay/PickADay';
 import landingPage from'./LandingPage/LandingPage';
-import Header from '../Header/Header';
+
 
 import './Dashboard.css'
 
@@ -96,7 +96,7 @@ class Dashboard extends React.Component {
         }
         return (
             <div className='Dashboard'>
-                <Header />
+                
                 <dashboardContext.Provider
                     value={contextValue}>
                     <div className='flex-one'>

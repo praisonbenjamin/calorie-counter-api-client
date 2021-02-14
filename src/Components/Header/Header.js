@@ -9,9 +9,12 @@ export class Header extends React.Component {
 		return (
 			<div className="row nav-bar-public row">
 				<h1 className="col-6"><Link to="/dashboard">Calorie Guide</Link></h1>
-				<nav className='nav' role='navigation'>
-						<Link to="/addDay">Add Day</Link>
-						<Link to="/addMeal">Add Meal</Link>
+				<nav className='nav-public' role='navigation'>
+					<ul>
+						<li><Link to="/">About</Link></li>
+						<li><Link to="/addDay">Add Day</Link></li>
+						<li><Link to="/addMeal">Add Meal</Link></li>
+					</ul>
 				</nav>
 			</div>
 		);

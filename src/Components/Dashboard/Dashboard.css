@@ -1,5 +1,6 @@
 .Dashboard{
     display: flex;
+    flex-direction: row;
 }
 
 .flex-one{
@@ -17,4 +18,27 @@
     padding-left: 4rem;
     padding-right: 4rem;
     padding-bottom: 4rem;
+}
+
+@media only screen and (max-width: 843px) {
+    .Dashboard{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-one{
+        flex: 1;
+        background-color: lightgrey;
+        padding-top: 10rem;
+        padding-bottom: 4rem;
+    }
+
+    .flex-three{
+        flex: 2;
+        background-color: yellowgreen;
+        padding-top: 10rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 4rem;
+    }
+
 }

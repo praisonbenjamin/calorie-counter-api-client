@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Calorie Guide",
+  "name": "Calorie Guide | Keep a record or meals",
   "icons": [
     {
       "src": "favicon.ico",

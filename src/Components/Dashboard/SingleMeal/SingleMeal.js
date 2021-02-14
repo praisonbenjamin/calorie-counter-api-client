@@ -58,7 +58,7 @@ class SingleMeal extends React.Component {
 SingleMeal.propTypes = {
     meal: PropTypes.string,
     food_type: PropTypes.string,
-    calories: PropTypes.string,
+    calories: PropTypes.number,
     onDeleteNote: PropTypes.func
 }
 

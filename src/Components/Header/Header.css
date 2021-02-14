@@ -10,7 +10,7 @@
 
 .nav-public {
 	margin-top: 1rem;
-	text-align: right;
+	text-align: center;
 	font-size: 17px;
 	
 
@@ -23,20 +23,16 @@ h1 {
 	
 }
 
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-  }
+
 
 ul{
-	padding: 30px;
-	list-style: none;
+	list-style-type: none;
+	
 }
 
+
 li{
+	float: right;
 	padding: 5px;
 }
 
@@ -47,8 +43,6 @@ li{
 	font-size: 1rem;
 	background-color: #21343B;
 	color: #F6F6FA;
-	border: 1px solid #21343B;
-	border-radius: 5px;
 	height: 1.4rem;
 	width: 6rem;
 	cursor: pointer;
@@ -64,7 +58,6 @@ li{
 	}
 
 	.nav-public {
-		text-align: center;
 		margin-right: 3rem;
 		border-top: 1px solid #21434B;
 		
